@@ -1,0 +1,50 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use the viewport height to cover the entire screen vertically */
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  body {
+    background-image: url("https://random.imagecdn.app/500/150");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Optional: To fix the background image */
+  }
+  
+  
+  .background-container {
+    background: rgb(61,48,93);
+    background: linear-gradient(0deg, rgba(61,48,93,1) 20%, rgba(5,19,22,1) 58%);    padding: 20px; /* Adjust the padding to control the background area */
+    border-radius: 10px; /* Add rounded corners for the background */
+  }  
+  
+
+  
+  .advice-text {
+    font-size: 18px;
+    color:gainsboro;
+    margin-bottom: 20px;
+  }
+  
+  .generate-button {
+    background-color:rgb(41, 32, 62);
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2f2547;
+    }
+  }
+  
