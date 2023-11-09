@@ -1,5 +1,7 @@
+import "./App.css";
+
 function App() {
-  <>QuoteGenerator</>;
+  return <>QuoteGenerator</>;
 }
 
 export default App;
