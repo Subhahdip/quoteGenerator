@@ -34,7 +34,7 @@ const App = () => {
           onClick={fetchData}
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-teal-800 rounded-lg hover:bg-teal-900"
         >
-          Read more
+          Generate
         </button>
       </div>
     </div>
